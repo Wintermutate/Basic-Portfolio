@@ -3,40 +3,46 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="witdh=device-width, intial-scale=1">
 		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
-		<!--Body Font Link -->
-		<link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa" rel="stylesheet">
-		<!--Profile Header Font -->
-		<link href='https://fonts.googleapis.com/css?family=Signika:700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<title>Basic Portfolio</title>
 	 </head>
 <body>
-<nav class="navbar navbar-inverse navbar-static-top">
-	<div class="container-fluid">
-		<div class="navbar-header">
-			<a href="#" class="navbar-brand">Vikas Sundrani</a>
+	<header>
+		<div class="header-content">
+			<div id="logo">
+				<h1>Vikas Sundrani</h1>
+			</div>
+				<nav>
+					<ul>
+						<a href="index.html"><li>About</li></a>
+						<a href="portfolio.html"><li>Portfolio</li></a>
+						<a href="contact.html"><li>Contact</li></a>
+					</ul>
+				</nav>
+		</div>		
+	</header>	
+	<section>
+		<div class="content">				
+			<div class="profile">
+				<h2>About Me</h2>
+					<img src="assets/images/Vikas Sundrani.jpg" class="profile-img">
+						<p>Hello! My name is Vikas Sundrani I originally started creating this page as an outlet for creativity, but that was soon put to bed. Instead of allowing students to truly explore a topic we were given the incredly stimulating assignment of making something that someone already made. So enjoy if I ever had to style a page like this I might kill myself instead.</p>
+			</div>
+			<div class="social-media">
+				<h3 class="social-header">Connect with Me</h3>
+					<ul id="social-buttons">
+						<li><img src="assets/images/github.png"></li>
+						<li><img src="assets/images/linkedin.png"></li>
+						<li><img src="assets/images/stackoverflow.png"></li>
+					</ul>
+			</div>
+		</div>	
+	</section>
+	<footer>
+		<div class="footer">
+			<h4>&#169;Copyright 2016 Vikas Sundrani</h4>
 		</div>
-		<ul class="nav navbar-nav navbar-right">
-			<li class="active"><a href="index.html">About</a></li>
-			<li><a href="portfolio.html">Portfolio</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>	
-	</div>
-</nav>
-	<div class="panel panel-default">
-		<div class="panel-body">
-			<strong><h1>About Me</h1></strong>
-			<br>
-			<img src="assets/images/Vikas Sundrani.jpg" alt="Vikas Sundrani" id="bio-image">
-			<p>Hello, my name is Vikas Sundrani. I graduated from Rutgers with a BA in Psychology/Philosophy. I am currently attending the Rutgers Coding Bootcamp in order to become a web developer.I hope to add to this page and in time to be able to use this page to exhibit my apptitude as a developer.</p>
-		</div>
-	</div>
-		<div class="well well-sm">
-			<img src="assets/images/Linkedin.png" alt="Linkedin" class="social">
-			<img src="assets/images/Github.png" alt="Github" class="social">
-			<img src="assets/images/Stack Overflow.png" alt="Stack Overflow" class="social"> 
-		</div>
-	<div id="footer">Copyright Vikas Sundrani</div>
+	</footer>
 </body>
 </html>
