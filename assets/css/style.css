@@ -4,6 +4,9 @@ body {
 	color: #777777;
 	margin: 0;
 }
+a {
+	color: inherit;
+}
 header {
 	font-family: 'Georgia','Times New Roman', Times, serif;
 	background-color: #ffffff;
@@ -30,9 +33,15 @@ div.header-content {
 	left: 0;
 	bottom: 0;
 }	
+ul.nav-list {
+	width: 270px;
+	position: relative;
+	margin: 40px 0px 40px auto;
+}
 nav {
 	float: right;
 	width: 270px;
+	text-align: center;
 }
 nav ul li {
 	color: #777777;
@@ -65,9 +74,14 @@ div.social-media {
 	width: 270px;
 	text-align: center;
 }
-ul li{
+#social-buttons {
+		margin: 0 auto;
+		text-align: center;
+		padding: 0;
+}
+#social-buttons li{
 	display: inline-block;
-	margin: 0 auto;
+	margin: 10px 5px;
 }
 .footer {
 	width: 100%;
