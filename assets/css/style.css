@@ -33,15 +33,14 @@ div.header-content {
 	left: 0;
 	bottom: 0;
 }	
-ul.nav-list {
-	width: 270px;
-	position: relative;
-	margin: 40px 0px 40px auto;
-}
 nav {
 	float: right;
 	width: 270px;
-	text-align: center;
+	height: 90px;
+}
+nav ul {
+	margin: 0 auto;
+	font: 20px;
 }
 nav ul li {
 	color: #777777;
