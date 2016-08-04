@@ -1,18 +1,18 @@
 body {
-	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-family:'Arial','Helvetica Neue', Helvetica, sans-serif;
 	background-image: url(../images/Background.png);
 	color: #777777;
-	margin: 0;
+	font-size: 16px;
 }
 a {
 	color: inherit;
 }
+p {
+	line-height: 2;
+}
 header {
-	font-family: 'Georgia','Times New Roman', Times, serif;
 	background-color: #ffffff;
 	width: 100%;
-	position: fixed;
-	top: 0;
 	border-bottom: 1px solid #cccccc;
 	height: 90px;
 }
@@ -23,7 +23,6 @@ div.header-content {
 	position: relative;
 }
 #logo {
-	font-family: 'Georgia','Times New Roman', Times, serif;
 	background-color: #4aaaa5;
 	color: white;
 	width: 30%;
@@ -32,6 +31,8 @@ div.header-content {
 	position: absolute;
 	left: 0;
 	bottom: 0;
+	font-family: 'Georgia','Times New Roman', Times, serif;
+	font-weight: bold;
 }	
 nav {
 	float: right;
@@ -39,30 +40,36 @@ nav {
 	height: 90px;
 }
 nav ul {
-	margin: 0 auto;
-	font: 20px;
+	color: #777777;
+	height: 100%;
+	width: 100%;
+	font-size: 16px;
+	text-align: center;
+	list-style: none;
 }
 nav ul li {
-	color: #777777;
-	display: inline-block;
+	display: inline;
+	line-height: 90px;
+	padding: 17px;
+	width: 90px;
 }
 div.content {
 	width: 960px;
-	height: auto;
-	margin: 0 auto;
-	padding-top: 100px;
+	height: 100%;
+	margin: 50px auto;
 }
 div.profile {
 	width: 650px;
 	margin-right: 40px;
+	padding: 20px;
 }
 div.profile,
 div.social-media {
 	background-color: #ffffff;
 	float: left;
 	border: 1px solid #dddddd;
+	overflow: auto;
 }
-
 img.profile-img {
 	height: 200px;
 	width: 200px;
@@ -72,6 +79,25 @@ img.profile-img {
 div.social-media {
 	width: 270px;
 	text-align: center;
+	padding: 20px;
+}
+h2 {
+	border-bottom: 2px solid #cccccc;
+	margin-top: 0;
+	margin-bottom: 10px;
+	margin-right: auto;
+	padding: 15px 0;
+	font-family: 'Georgia','Times New Roman', Times, serif;
+	font-weight: bold;
+}
+h3 {
+	border-bottom: 2px solid #cccccc;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 10px;
+	padding: 15px 0;
+	font-family: 'Georgia','Times New Roman', Times, serif;
+	font-weight: bold;
 }
 #social-buttons {
 		margin: 0 auto;
@@ -80,19 +106,20 @@ div.social-media {
 }
 #social-buttons li{
 	display: inline-block;
-	margin: 10px 5px;
+}
+ul li img {
+	width: 60px;
+	height: 60px;
 }
 .footer {
 	width: 100%;
-	position: fixed;
-	bottom: 0;
+	clear:both;
 	text-align: center;
 	background-color: #666666;
 	color: white;
-	border-top: 2px solid #cccccc;
+	border-top: 5px solid #cccccc;
 	height: 90px;
-	clear: both;
 }
 h6 {
-	margin: 45px 40% 45px 40%;
+	margin-top: 45px;
 }
