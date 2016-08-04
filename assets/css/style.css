@@ -99,6 +99,22 @@ h3 {
 	font-family: 'Georgia','Times New Roman', Times, serif;
 	font-weight: bold;
 }
+.portfolio {
+	position: relative;
+	float: left;
+	display: inline-block;
+	width: 35%;
+	padding: 10px;
+}
+.portfolio img{
+	width: 100%;
+}
+.portfolio-text {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 10px 20px;
+}
 #social-buttons {
 		margin: 0 auto;
 		text-align: center;
